@@ -1,0 +1,2 @@
+tutorial/AllFrenchYoruba30gen50propchr21_DonorvTarget.samples.out.gz
+tutorial/AllFrenchYoruba30gen50propchr22_DonorvTarget.samples.out.gz

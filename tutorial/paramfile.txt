@@ -1,0 +1,20 @@
+prop.ind: 1
+bootstrap.date.ind: 1
+null.ind: 1
+input.file.ids: tutorial/individual.txt
+input.file.copyvectors: tutorial/AllFrenchYoruba30gen50propchrAll_DonorvALL.chunklengths.out
+save.file.main: tutorial/AllFrenchYoruba30gen50prop.main
+save.file.bootstraps: tutorial/AllFrenchYoruba30gen50prop.boot
+copyvector.popnames: Balochi BantuKenya BantuSouthAfrica Druze EastSicilian English Hadza Han Ireland Japanese Makrani Mandenka Maya Naxi Russian Sardinian Saudi Scottish She Sindhi Surui Syrian Turkish UAE Uygur Yemeni
+surrogate.popnames: Balochi BantuKenya BantuSouthAfrica Druze EastSicilian English Hadza Han Ireland Japanese Makrani Mandenka Maya Naxi Russian Sardinian Saudi Scottish She Sindhi Surui Syrian Turkish UAE Uygur Yemeni
+target.popname: FrenchYoruba
+num.mixing.iterations: 5
+props.cutoff: 0.001
+bootstrap.num: 100
+num.admixdates.bootstrap: 1
+num.surrogatepops.perplot: 3
+curve.range: 1 30
+bin.width: 0.1
+xlim.plot: 0 30
+prop.continue.ind: 0
+haploid.ind: 0

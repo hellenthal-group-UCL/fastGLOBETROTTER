@@ -1,0 +1,33 @@
+### INFERRED SOURCES AND DATES ('best-guess' conclusion: one-date)
+#######################################
+### 1-DATE FIT EVIDENCE, DATE ESTIMATE, SINGLE BEST-FITTING DONORS
+gen.1date proportion.source1 maxR2fit.1date fit.quality.1event fit.quality.2events bestmatch.event1.source1 bestmatch.event1.source2 proportion.event2.source1 bestmatch.event2.source1 bestmatch.event2.source2
+26.59777568797 0.49 0.971865576514046 0.9999898412023 0.999999986237007 BantuSouthAfrica Ireland 0.49 Druze Mandenka
+#######################################
+### 2-DATE FIT EVIDENCE, DATE ESTIMATES, SINGLE BEST-FITTING DONORS
+gen.2dates.date1 gen.2dates.date2 maxScore.2events proportion.date1.source1 bestmatch.date1.source1 bestmatch.date1.source2 proportion.date2.source1 bestmatch.date2.source1 bestmatch.date2.source2
+22.3094209638073 68.9962940228555 0.0612674576313752 0.49 BantuSouthAfrica Ireland 0.48 English BantuSouthAfrica
+#######################################
+### 1-DATE FIT SOURCES, PC1:
+proportion BantuKenya Mandenka BantuSouthAfrica
+0.49 0.16292895647841 0.317407291065057 0.519663752456533
+proportion Druze Sardinian Ireland English
+0.51 0.0196072757431737 0.0658784932171261 0.129113532999502 0.785400698040198
+#######################################
+### 1-DATE FIT SOURCES, PC2:
+proportion Mandenka BantuKenya Sardinian Druze
+0.49 0.151723128401684 0.251388505865685 0.287788787311745 0.309099578420886
+proportion Naxi Mandenka Maya BantuSouthAfrica Russian
+0.51 0.0422050441739024 0.148696809740524 0.217749809894118 0.234818539420699 0.356529796770756
+#######################################
+### 2-DATE FIT SOURCES, DATE1-PC1:
+proportion Hadza BantuKenya Mandenka BantuSouthAfrica
+0.49 0.00329496824913449 0.248507519302114 0.301105555644585 0.447091956804167
+proportion Japanese Surui Han Saudi Balochi Druze Sardinian Ireland Turkish English
+0.51 0.000263367650634548 0.00133791661239084 0.00160231632545774 0.00316398047107333 0.0061203496746508 0.0152850411900855 0.0756022471868333 0.11333416429237 0.156543799104451 0.626746817492053
+#######################################
+### 2-DATE FIT SOURCES, DATE2-PC1:
+proportion Yemeni Japanese Maya Naxi Han Sardinian Mandenka BantuSouthAfrica Ireland English
+0.48 0.000659957884361543 0.00104923106368798 0.00124855107047964 0.00258291541993117 0.0122101153745383 0.0337903796030679 0.069520866197403 0.0768739382454929 0.154832979592273 0.647231065548765
+proportion Hadza She Sindhi Surui Ireland Saudi Balochi Druze UAE Sardinian Syrian Mandenka BantuKenya BantuSouthAfrica
+0.52 0.00033261736952228 0.000968043660286004 0.00101751833022923 0.00165402201830713 0.00207074355381107 0.0074061124342369 0.0179813309232941 0.0204302248246584 0.0293802558560337 0.0527036478191287 0.0726783823060361 0.217930430686619 0.24105806363499 0.334388606582847

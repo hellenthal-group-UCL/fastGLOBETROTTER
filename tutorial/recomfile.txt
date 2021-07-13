@@ -1,0 +1,2 @@
+tutorial/Chrom21.recomrates
+tutorial/Chrom22.recomrates
