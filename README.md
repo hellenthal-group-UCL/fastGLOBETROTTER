@@ -1,1 +1,3 @@
-fastGLOBETROTTER is a new version of the same model, using the same input, that is ~4-20 times faster than GLOBETROTTER without sacrificing accuracy. bioRxiv paper coming soon
+fastGLOBETROTTER is an updated version of the same GLOBETROTTER model, using the same input, but that is ~4-20 times faster than GLOBETROTTER without sacrificing accuracy. 
+
+The bioRvix paper can be found [here](https://www.biorxiv.org/content/10.1101/2021.08.12.455263v1).
