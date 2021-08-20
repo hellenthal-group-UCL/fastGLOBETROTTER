@@ -2,4 +2,9 @@ fastGLOBETROTTER is an updated version of the same GLOBETROTTER model, using the
 
 The bioRvix paper can be found [here](https://www.biorxiv.org/content/10.1101/2021.08.12.455263v1).
 
-To compile the `.c` code, simply run ``R CMD SHLIB -o fastGLOBETROTTERCompanion.so fastGLOBETROTTERCompanion.c -lz``.
+To download and compile:
+
+```
+git clone https://github.com/sahwa/fastGLOBETROTTER.git && cd fastGLOBETROTTER
+R CMD SHLIB -o fastGLOBETROTTERCompanion.so fastGLOBETROTTERCompanion.c -lz
+```
