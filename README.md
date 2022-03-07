@@ -6,6 +6,5 @@ To download and compile:
 
 ```
 git clone https://github.com/sahwa/fastGLOBETROTTER.git && cd fastGLOBETROTTER
-Rscript -e 'install.packages(c("nnls", "data.table", "optparse"))'
 R CMD SHLIB -o fastGLOBETROTTERCompanion.so fastGLOBETROTTERCompanion.c -lz -O2
 ```  
