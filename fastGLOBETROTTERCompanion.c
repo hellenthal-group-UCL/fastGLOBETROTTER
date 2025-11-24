@@ -189,8 +189,8 @@ void data_read(int *ploidy, int * ind_id_vec, char **filenameSAMPread, char **fi
   int num_chrom, num_chrom2, nsamples, nsamplestoconsider, nsamplestoconsiderNULL, count, nhaps, ninds, nsites, numchunks, num_chunksALL, to_skip;
   int chunkcount, chunk_count_all, line_check, rec_count, hap_count;
   double totalgeneticdist, gridweight_val;
-  FILE *fd, *fd3, *fd2;
-  //gzFile *fd2;
+  FILE *fd, *fd3;
+  gzFile fd2;
   char *step;
   char * line = malloc(10000000 * sizeof(char));
   char waste[400];
@@ -1213,8 +1213,8 @@ void data_read_mode3(int *ploidy, int * ind_id_vec, char **filenameSAMPread, cha
   int num_chrom, num_chrom2, nsamples, nsamplestoconsider, nsamplestoconsiderNULL, count, nhaps, ninds, nsites, numchunks, num_chunksALL, to_skip;
   int chunkcount, chunk_count_all, line_check, rec_count, hap_count;
   double totalgeneticdist, gridweight_val;
-  FILE *fd, *fd3, *fd2;
-  //gzFile *fd2;
+  FILE *fd, *fd3;
+  gzFile fd2;
   char *step;
   char * line = malloc(10000000 * sizeof(char));
   char waste[400];
