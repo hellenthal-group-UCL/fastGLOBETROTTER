@@ -692,7 +692,8 @@ void data_read_null(int *ploidy, char **filenameSAMPread, char **filenameRECOMre
   double totalgeneticdist, gridweight_val, gridweight_val2;
   double dist_btwn_i_j,min_dist_btwn_i_j;
   int bin_spot_i_j;
-  FILE *fd, *fd3, *fd2;
+  FILE *fd, *fd3;
+  gzFile fd2;
   char *step;
   char * line = malloc(10000000 * sizeof(char));
   char waste[400];
